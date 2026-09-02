@@ -12,3 +12,4 @@ ui_*.h
 
 # Local and previously generated build output
 /build/
+INTERVIEW_PREP.md
