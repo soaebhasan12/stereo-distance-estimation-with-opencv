@@ -1,0 +1,14 @@
+# Qt Creator per-user settings
+*.pro.user
+*.pro.user.*
+
+# qmake and compiler output
+*.o
+*.obj
+*.exe
+Makefile
+moc_*.cpp
+ui_*.h
+
+# Local and previously generated build output
+/build/
