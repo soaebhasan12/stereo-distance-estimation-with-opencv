@@ -39,11 +39,6 @@ This is an old learning project, not a production measuring tool. The depth esti
 |   `-- stereo_processing.h
 |-- forms
 |   `-- main_window.ui
-|-- docs
-|   `-- original_reference
-|       |-- original_code_index.txt
-|       |-- original_code_structure.PNG
-|       `-- original_project_report.pdf
 ```
 
 The `src` folder contains the C++ source and headers. The Qt Designer form is in `forms`. The qmake project file stays at the repository root so the build command is easy to find. `docs/original_reference` keeps downloaded reference material separate from application code. Old Qt Creator settings and generated build output were removed because they are machine-specific and can be regenerated. Future local build output under `build/` is ignored by Git.
